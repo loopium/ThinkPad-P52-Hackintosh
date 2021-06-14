@@ -1,3 +1,20 @@
+
+Working on a near-perfect opencore config for my ThinkPad P73 (UHD, i7-9750H, 32 GB RAM).
+
+All good except Battery Status and Fingerprint reader this far.
+
+Upgraded OpenCore release to 0.7.0 and edited the config.plist to match.
+
+Searching for patched battery ACPI files for the battery issue or I will have to 
+try to make one, which seems quite a chore.
+
+There is a rev-eng of the Synaptic Metallica MIS fingerprint device available
+with some arch/AUR package. Could be portable to macOS. 
+
+
+
+-----
+
 [![BIOS](https://img.shields.io/badge/BIOS-1.37-brightgreen.svg)](https://pcsupport.lenovo.com/us/en/products/LAPTOPS-AND-NETBOOKS/THINKPAD-P-SERIES-LAPTOPS/THINKPAD-P52-TYPE-20M9-20MA/20M9/downloads/DS504024)
 ![macOS](https://img.shields.io/badge/macOS-11.0%20beta4-orange.svg)
 ![Clover](https://img.shields.io/badge/OpenCore-0.6.0-blue.svg)
